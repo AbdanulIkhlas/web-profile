@@ -1,0 +1,6 @@
+{
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.showArrays": true,
+    "breadcrumbs.filePath": "on",
+    "workbench.tree.enableStickyScroll": true
+}
