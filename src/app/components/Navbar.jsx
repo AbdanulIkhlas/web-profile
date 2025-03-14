@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import ButtonContactUs from './atoms/ButtonContactUs';
+import Logo from './atoms/Logo';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,27 +14,27 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`fixed top-0 left-0 w-full h-12 bg-black bg-opacity-50 z-50`}>
-      <div className="flex items-center justify-between px-4 ">
+    <nav className={`fixed top-0 left-0 w-full bg-black bg-opacity-50 z-50`}>
+      <div className="flex items-center justify-between px-5 md:px-12 lg:px-[72px] h-12 md:h-16 lg:h-[82px] ">
         <div className="flex items-center">
-          <Image src="/images/logo/stepuplogo2.png" alt="Logo" width={50} height={50} />
+          <Logo />
         </div>
         
         <div className="hidden lg:flex space-x-8">
           <Link href="/services">
-            <p className="text-gray-400 hover:text-gray-100">Services</p>
+            <p className="text-gray-400 text-sm md:text-base hover:text-gray-100">Services</p>
           </Link>
           <Link href="/portfolio">
-            <p className="text-gray-400 hover:text-gray-100">Portfolio</p>
+            <p className="text-gray-400 text-sm md:text-base hover:text-gray-100">Portfolio</p>
           </Link>
           <Link href="/insight">
-            <p className="text-gray-400 hover:text-gray-100">Insight</p>
+            <p className="text-gray-400 text-sm md:text-base hover:text-gray-100">Insight</p>
           </Link>
           <Link href="/about">
-            <p className="text-gray-400 hover:text-gray-100">About Us</p>
+            <p className="text-gray-400 text-sm md:text-base hover:text-gray-100">About Us</p>
           </Link>
         </div>
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 md:space-x-6">
         <ButtonContactUs />
         <div className="lg:hidden">
           <button onClick={toggleNavbar} className="flex flex-col items-center justify-center w-5 h-10 gap-1">
