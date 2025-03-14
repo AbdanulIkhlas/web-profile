@@ -1,4 +1,3 @@
-import React from "react";
 import HeroSection from "../sections/Service/HeroSection";
 import DividerLine from "../elements/DividerLine";
 import WhyChooseUsSection from "../sections/Service/WhyChooseUsSection";
