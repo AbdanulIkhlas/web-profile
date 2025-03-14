@@ -1,7 +1,7 @@
-import ButtonContactUs from "../components/atoms/ButtonContactUs";
-import DividerLine from "../components/atoms/DividerLine";
-import SecondHeader from "../components/atoms/SecondHeader";
-import SecondParagraph from "../components/atoms/SecondParagraph";
+import ButtonContactUs from "../components/elements/ButtonContactUs";
+import DividerLine from "../components/elements/DividerLine";
+import SecondHeader from "../components/elements/SecondHeader";
+import SecondParagraph from "../components/elements/SecondParagraph";
 import HeroSection from "../components/fragments/HeroSection";
 import CardGrid from "../components/fragments/CardGrid";
 

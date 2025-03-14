@@ -1,5 +1,5 @@
 import HeroSection from "../components/fragments/HeroSection";
-import GradientHeader from "../components/atoms/GradientHeader";
+import GradientHeader from "../components/elements/GradientHeader";
 
 const Portfolio = function () {
   return (

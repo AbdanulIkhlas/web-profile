@@ -3,8 +3,8 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import ButtonContactUs from './atoms/ButtonContactUs';
-import Logo from './atoms/Logo';
+import ButtonContactUs from './elements/ButtonContactUs';
+import Logo from './elements/Logo';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
