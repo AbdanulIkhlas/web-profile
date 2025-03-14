@@ -1,7 +1,7 @@
 import IntroTitle from "../../fragments/IntroTitle";
 import ButtonContactUs from "../../elements/ButtonContactUs";
 
-const IntroSection = () => {
+const HeroSection = () => {
   return (
     <section className="text-center mb-10">
       <IntroTitle
@@ -16,4 +16,4 @@ const IntroSection = () => {
   );
 };
 
-export default IntroSection;
+export default HeroSection;
