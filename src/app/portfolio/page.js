@@ -1,24 +1,11 @@
 import IntroTitle from "../components/fragments/IntroTitle";
 import GradientHeader from "../components/elements/GradientHeader";
+import PortfolioLayout from "../components/layouts/PortfolioLayout";
 
 const Portfolio = function () {
   return (
-    <div className="w-full mb-56">
-      {/* Hero Section */}
-      <section className="text-center mb-10">
-        <IntroTitle
-          highlight=""
-          title="Showcasing Our Digital Creations"
-          description="A collection of projects showcasing our expertise in building innovative and effective digital solutions for businesses."
-        />
-      </section>
-
-      {/* Project Section */}
-      <section className="border border-white">
-        <GradientHeader customClassname="text-xl pr-40">
-          Project We've Worked On
-        </GradientHeader>
-      </section>
+    <div>
+      <PortfolioLayout />
     </div>
   );
 };
