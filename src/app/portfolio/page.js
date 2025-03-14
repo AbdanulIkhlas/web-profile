@@ -1,4 +1,4 @@
-import HeroSection from "../components/fragments/HeroSection";
+import IntroTitle from "../components/fragments/IntroTitle";
 import GradientHeader from "../components/elements/GradientHeader";
 
 const Portfolio = function () {
@@ -6,7 +6,7 @@ const Portfolio = function () {
     <div className="w-full mb-56">
       {/* Hero Section */}
       <section className="text-center mb-10">
-        <HeroSection
+        <IntroTitle
           highlight=""
           title="Showcasing Our Digital Creations"
           description="A collection of projects showcasing our expertise in building innovative and effective digital solutions for businesses."
@@ -18,7 +18,6 @@ const Portfolio = function () {
         <GradientHeader customClassname="text-xl pr-40">
           Project We've Worked On
         </GradientHeader>
-        
       </section>
     </div>
   );
