@@ -1,4 +1,4 @@
-const HeroSection = ({ title, highlight, description }) => {
+const IntroTitle = ({ title, highlight, description }) => {
   return (
     <section className="text-center text-white px-5">
       <h1 className="text-2xl bg-gradient-to-r from-white to-gray-600 bg-clip-text text-transparent">
@@ -11,4 +11,4 @@ const HeroSection = ({ title, highlight, description }) => {
   );
 };
 
-export default HeroSection;
+export default IntroTitle;
