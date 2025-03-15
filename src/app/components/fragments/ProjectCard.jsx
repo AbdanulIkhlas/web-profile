@@ -13,7 +13,7 @@ const ProjectCard = ({ project }) => {
 
         {/* Overlay Hover */}
         <div
-          className="absolute bottom-0 left-0 w-full h-0 group-hover:h-full transition-all duration-500"
+          className="absolute bottom-0 left-0 w-full h-0 group-hover:h-4/5 transition-all duration-500"
           style={{
             background: `linear-gradient(to top, ${project.hoverColor}, transparent)`,
           }}
