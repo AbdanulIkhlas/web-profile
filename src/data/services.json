@@ -1,0 +1,36 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "name": "Web Development",
+            "serviceSvg" : "/svg/services/web-development.svg",
+            "img1" : "images/services/wd1.png",
+            "img2" : "images/services/wd2.png",
+            "img3" : "images/services/wd3.png"
+        },
+        {
+            "id": 2,
+            "name": "UI Design",
+            "serviceSvg" : "/svg/services/ui-design.svg",
+            "img1" : "images/services/ui1.png",
+            "img2" : "images/services/ui2.png",
+            "img3" : "images/services/ui3.png"
+        },
+        {
+            "id": 3,
+            "name": "UX Design",
+            "serviceSvg" : "/svg/services/ux-design.svg",
+            "img1" : "images/services/ux1.png",
+            "img2" : "images/services/ux2.png",
+            "img3" : "images/services/ux3.png"
+        },
+        {
+            "id": 4,
+            "name": "Project Manager",
+            "serviceSvg" : "/svg/services/pm.svg",
+            "img1" : "images/services/pm1.png",
+            "img2" : "images/services/pm2.png",
+            "img3" : "images/services/pm3.png"
+        }
+    ]
+}
